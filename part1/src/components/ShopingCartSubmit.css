@@ -1,0 +1,30 @@
+:local(.submitButton) {    
+    color: blue;
+}
+:local(.productForm) {
+    background: #f2f2f2;
+    padding: 10px;
+}
+
+:local(.productForm) >* {
+    display: block;
+    margin: 10px 0;
+}
+.productForm label span {
+    width:65px;
+    display:inline-block;
+}
+
+:local(.submitButton) {
+    margin: 10px 0;
+    float: right;
+}
+
+:local(.fetchButton) {
+    margin: 10px 0;
+    float:left;
+}
+
+:local(.clear){
+    clear:both;
+}

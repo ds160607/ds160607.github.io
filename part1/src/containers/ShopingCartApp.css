@@ -1,0 +1,27 @@
+:local(.shopingCartApp) {
+    padding:10px;
+    position:relative;
+}
+
+:local(.shopingCartApp__actions){
+    padding: 10px 0;
+}
+
+:local(.glass) {
+    display: none;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: white;
+    opacity:0.5;
+}
+:local(.glass_visible) {
+    display: block;
+}
+:local(.errorMessage) {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}

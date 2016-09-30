@@ -1,0 +1,16 @@
+:local(.shopingCartList) {
+    width: 100%;
+}
+.shopingCartList th {
+    text-align:left;
+    background: #f2f2f2;
+    padding:10px;
+}
+.shopingCartList td {
+    padding: 10px;
+}
+
+:local(.sortable) {
+    cursor:pointer;
+    
+}
