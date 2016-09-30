@@ -7,7 +7,7 @@ import fetch from 'isomorphic-fetch';
 export function fetchItems(testing) {
   return (dispatch) => {
 
-    let url = '/json/items.json';
+    let url = 'json/items.json';
 
     if (testing && typeof (testing) === "string") {
       url = testing + url;

@@ -102,7 +102,7 @@ describe('actions', () => {
     const store = mockStore();
 
     return store.dispatch(
-      actionCreators.fetchItems('http://localhost:3500'))
+      actionCreators.fetchItems('http://localhost:3500/'))
       .then(() => {
         expect(store.getActions()).to.deep.equal(expectedActions)
       })
